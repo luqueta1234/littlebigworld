@@ -1,6 +1,6 @@
 body {
-    background-image: url("../images/alto.webp");
-    background-size: cover;
+  background-image: url('../images/alto.webp');
+  background-size: cover;
    }
 
   .nav-link:hover {
@@ -11,6 +11,10 @@ body {
     margin-left: 50px;
   }
        
+  #home{
+    margin-left: 50px;
+  }
+
   .container{
     background-color: transparent;
     margin-top: 275px;
