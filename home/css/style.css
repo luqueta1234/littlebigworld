@@ -1,0 +1,10 @@
+body {
+    background-image: url("../images/alto.webp");
+    background-size: cover;
+   }
+
+  .nav-link:hover {
+    color: rgb(125,193,213);
+  }
+
+  
