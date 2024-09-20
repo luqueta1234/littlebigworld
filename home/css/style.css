@@ -7,4 +7,7 @@ body {
     color: rgb(125,193,213);
   }
 
-  
+  .nav-link {
+    margin-left: 50px;
+  }
+
