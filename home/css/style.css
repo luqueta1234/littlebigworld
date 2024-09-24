@@ -55,12 +55,11 @@ body {
   left: 0;
   right: 0;
   bottom: 0;
-  background-image: url('../images/777.jpg');
+  background-image: url('../images/legal.jpg');
   background-position: center;
   background-size: cover;
   opacity: 0.5;
   z-index: 1;
-  filter: blur(1.5px);
 }
 
 .background-container .navbar {
@@ -114,4 +113,9 @@ h5 {
   display: block; /* Remove espaço embaixo das imagens */
   max-width: 100%;
   height: auto;
+}
+
+.background-container2 .img-fluid{
+  width: 50px;
+  display: flex;
 }
