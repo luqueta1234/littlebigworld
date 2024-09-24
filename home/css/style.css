@@ -27,7 +27,8 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  color: goldenrod
+  margin-top: 250px;
+  color: aqua;
 }
 
 .background-container {
@@ -66,6 +67,10 @@ body {
   position: relative;
   z-index: 2; /* Coloca o texto acima do gradiente */
   color: white; /* Cor do texto */
+}
+
+.background-container h1, h5 {
+  z-index: 2;
 }
 
 
