@@ -130,7 +130,6 @@ h5 {
 }
 
 .rodape hr {
-    width: 1475px;
     color: black;
     margin: 10px;
     margin-left: 30px;
@@ -156,9 +155,9 @@ h5 {
   .rodape hr {
     margin-top: 150px;
     margin-left: 80px;
-    width: 480px;
+
   }
-  .col-md-4{
+  .projeto{
     display: flex;
     flex-direction: column;
     justify-content: center;
