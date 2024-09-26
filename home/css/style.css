@@ -87,7 +87,7 @@ h5 {
   display: block;
   width: 30px;
   height: 3px;
-    -color: greenyellow;
+  background-color: greenyellow;
   margin: 6px 0;
 }
 
@@ -127,12 +127,4 @@ h5 {
 .rodape{
   background: rgb(56,163,165);
   background: linear-gradient(to bottom, rgba(56,163,165,1) 0%, rgba(34,87,122,1) 100%);
-}
-
-.background-container3{
-  background: rgba(56, 163, 165, 1) 100%;
-}
-
-.videotrailer{
-  z-index: 2;
 }
