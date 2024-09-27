@@ -147,21 +147,6 @@ h5 {
   align-items: center;
 }
 
-@media (max-width: 600px){
-  .rodape hr {
-    margin-top: 150px;
-    margin-left: 80px;
-
-  }
-  .projeto{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-
-}
-
 .navbar {
   position: fixed; /* Fixa o navbar no topo */
   top: 0;
@@ -177,4 +162,23 @@ h5 {
 
 .navbar.fixed {
   background-color: rgba(0, 0, 0, 0.8); /* Cor de fundo quando fixo */
+}
+
+@media (max-width: 600px){
+  .rodape hr {
+    margin-top: 150px;
+    margin-left: 80px;
+
+  }
+  .projeto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .videotrailer{
+    margin: 0;
+ }
+
 }
