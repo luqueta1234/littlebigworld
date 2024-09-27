@@ -12,9 +12,18 @@
 <body>
 
   <!-- home do site -->
-  <div class="background-container">
+  <div class="background-container" id="home">
 
-    <nav class="navbar navbar-expand-lg transparent fixed-top">
+
+
+    <!--  style="    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+   "-->
+
+    <nav class="navbar navbar-expand-lg transparent">
       <div class="container-fluid">
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
           aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -23,7 +32,7 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <div class="d-flex justify-content-md-center flex-grow-1">
             <ul class="navbar-nav mb-2 mb-lg-0">
-              <li class="nav-item" id="home">
+              <li class="nav-item">
                 <a class="nav-link" aria-current="page" href="#home">Home</a>
               </li>
               <li class="nav-item">
@@ -66,8 +75,8 @@
       <div class="row d-flex align-items-center">
         <!-- Coluna da esquerda com 2 espaços -->
         <div class="col-md-2">
-          <h4>Texto de Exemplo</h4>
-          <p>Aqui vai o conteúdo de texto da sua coluna esquerda.</p>
+          <h4 class="text-white">Texto de Exemplo</h4>
+          <p class="text-white">Aqui vai o conteúdo de texto da sua coluna esquerda.</p>
         </div>
         <!-- Coluna da direita com 10 espaços -->
         <div class="col-md-9 videotrailer">
@@ -84,7 +93,7 @@
     <section class="bg-body-transparent" id="sinopse">
       <div class="container">
         <div class="row">
-          <div class="col">
+          <div class="col text-white">
             Lorem ipsum dolor sit Lorem ipsum dolor sit Lorem ipsum dolor sit
             <div class="row">
               <div class="col-6 col-sm-4">
@@ -114,10 +123,10 @@
 
           <!-- Coluna para o texto -->
           <div class="col-md-4 projeto">
-            <span class="h6 d-block">ASCENDED GODS</span>
+            <span class="h6 d-block text-white">ASCENDED GODS</span>
             <h2 class="display-4 text-primary">Our Project</h2>
-            <hr class="border-secondary opacity-50">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo voluptatum minima officiis, iusto,
+            <hr class="border-white opacity-100">
+            <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo voluptatum minima officiis, iusto,
               ex,
               voluptatibus illum ducimus consequatur qui quam distinctio numquam aperiam cupiditate. Sed
               dolores
@@ -131,10 +140,10 @@
     <!-- coluna da lore do protagonista -->
     <section class="bg-body-transparent" id="protagonista">
       <div class="container">
-        <div class="row ">
+        <div class="row d-flex align-items-center">
           <div class="col ">
             <div class="row">
-              <div class="col-6 col-sm-5 d-flex align-items-center">
+              <div class="col-6 col-sm-5">
                 <img class="mb-1" src="images/sinopse/ReyChiquita.jfif" alt="foto1">
               </div>
               <br><br><br><br><br><br><br><br><br><br><br><br>
@@ -144,10 +153,10 @@
 
           <!-- Coluna para a Lore do Protagonista -->
           <div class="col-md-4 projeto">
-            <span class="h6 d-block">REY</span>
+            <span class="h6 d-block text-white">REY</span>
             <h2 class="display-4 text-primary">Lore</h2>
-            <hr class="border-secondary opacity-50">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo voluptatum minima officiis, iusto,
+            <hr class="border-white opacity-100">
+            <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo voluptatum minima officiis, iusto,
               ex,
               voluptatibus illum ducimus consequatur qui quam distinctio numquam aperiam cupiditate. Sed
               dolores
@@ -163,7 +172,7 @@
   <!-- Footer -->
   <footer class="text-center text-lg-start bg-body-transparent text-muted rodape" id="suporte">
     <section
-      class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom border-secondary opacity-50">
+      class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom border-white">
       <div class="me-5 d-lg-block">
         <span class="d-none">Get connected with us on social networks:</span>
         <p></p>
