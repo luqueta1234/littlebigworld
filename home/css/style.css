@@ -69,6 +69,10 @@ body {
   color: white;
 }
 
+.background-container .sobreojogo {
+  z-index: 2;
+}
+
 .background-container h1,
 h5 {
   z-index: 2;
